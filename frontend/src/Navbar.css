@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    background-color: #007AFF;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: maroon;
+}

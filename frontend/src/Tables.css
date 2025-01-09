@@ -1,0 +1,38 @@
+.submitted-instructions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.submitted-data-main{
+    margin: 10px;
+    border: 1px solid lightgray;
+}
+input,select{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    padding: 5px;
+}
+select{
+    height: 42px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btns button{
+    margin: 10px;
+    background-color: #007AFF;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns button:hover{
+    background-color: #1985f9;
+}
